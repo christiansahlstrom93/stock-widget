@@ -1,0 +1,68 @@
+.stockWidget {
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0rem 0.25rem 1rem RGB(0 0 0 / 10%);
+  min-height: 48px;
+  width: 280px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.stocks {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+}
+
+.tickerInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.currency {
+  font-size: 10px;
+}
+
+.row:not(:last-of-type) {
+  border-bottom: 1px solid #2c2e31;
+}
+
+.ticker {
+  font-weight: 800;
+  margin-bottom: 0.15rem;
+  font-size: 14px;
+}
+
+.diffValues {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.openClose {
+  text-align: end;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.priceUp {
+  color: #1bda1b;
+  font-weight: 800;
+}
+
+.priceDown {
+  color: #f51e1e;
+  font-weight: 800;
+}

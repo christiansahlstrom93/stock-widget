@@ -1,7 +1,7 @@
 class Service {
   getStocks = async (tickers) => {
     const response = await fetch(
-      `https://stocks.algobook.info/api/v1/stocks?tickers=${tickers.join(
+      `https://api.algobook.info/api/v1/stocks?tickers=${tickers.join(
         ","
       )}`
     );

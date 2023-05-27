@@ -1,6 +1,6 @@
 {
   "name": "react-stocks",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "React widget for displaying real time stock prices with live pushes.",
   "main": "./dist/index.js",
   "types": "index.d.ts",
